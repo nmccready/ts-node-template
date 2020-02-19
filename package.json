@@ -26,6 +26,7 @@
     "@znemz/js-common-eslint-config-react-emotion": "0.2.1",
     "@znemz/js-common-jest-deps": "0.2.1",
     "@znemz/js-common-prettierrc-clone": "0.2.1",
+    "@znemz/react-extras-jest": "^1.5.2-alpha.0",
     "@znemz/types": "0.0.1",
     "bluebird": "^3.7.2",
     "config": "^3.2.4",
