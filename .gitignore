@@ -1,0 +1,110 @@
+# node
+node_modules
+.tmp
+config/local.js
+config/local.ts
+# Directories
+./build
+dist
+out
+bin
+deploy
+classes
+**/src/generated
+config/local.js
+
+*.d.ts
+src/**/*.js
+
+######################
+# Database
+######################
+
+*/data/
+
+######################
+# IDEs
+######################
+
+# Intellij
+**/.idea/**
+*.iml
+*.iws
+*.ipr
+*.ids
+*.orig
+
+# Eclipse
+.project
+.metadata
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/**
+.loadpath
+.factorypath
+*.launch
+.externalToolBuilders/**
+.springBeans
+.recommenders/
+
+
+######################
+# Others
+######################
+
+bindle/
+buildInfo.json
+.merge_file*
+nbproject
+
+######################
+# Docs Exclusion
+######################
+!docs/**/*
+
+# Docs exclusion is above OS specific exclusions,
+# to ensure that trash files are still ignored
+# (even when in docs directory)
+
+
+######################
+# Mac OSX
+######################
+
+.DS_Store
+.svn
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+
+######################
+# Windows
+######################
+
+# Windows image file caches
+Thumbs.db
+
+# Folder config file
+Desktop.ini
+
+
+######################
+# Logs
+######################
+
+*.log
+
+.env
+
+debug.js
+# generated
+config/clientConfig.tsx

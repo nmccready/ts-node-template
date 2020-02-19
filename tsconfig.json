@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "allowSyntheticDefaultImports":true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "removeComments": true,
+    "noLib": false,
+    "emitDecoratorMetadata": true,
+    "noImplicitAny": false,
+    "module": "commonjs",
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "declaration": true,
+    "noResolve": false,
+    "moduleResolution": "node",
+    "rootDir": "./",
+    "outDir": ".tmp",
+    "target": "ESNext",
+  },
+  "exclude": ["node_modules", "**/*.spec.ts", "src/public", "dist"]
+}

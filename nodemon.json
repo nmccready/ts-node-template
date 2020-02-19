@@ -1,0 +1,5 @@
+{
+  "verbose": true,
+  "ignore": ["gulpfile.ts","config/clientConfig.tsx", ".tmp", "src/public/**/*", "src/public/dist"],
+  "signal": "SIGTERM"
+}

@@ -1,0 +1,48 @@
+{
+  "name": "@znemz/ts-node-template",
+  "version": "0.0.1",
+  "private": true,
+  "license": "MIT",
+  "author": "Nicholas McCready",
+  "main": "src/cli.ts",
+  "scripts": {
+    "clean": "git clean -xfd -e config/local.ts",
+    "lint": "eslint --ext .js,.ts,.tsx --color .*.js src/",
+    "prepare": "yarn sort-package-json && yarn js-common-prettierrc-clone",
+    "start": "cat ./config/banner.txt &&  yarn ts-node src/cli.ts",
+    "start:dev": "cat ./config/banner.txt &&  nodemon -e js,ts,tsx -x ts-node src/cli.ts",
+    "test": "concurrently \"yarn test:types\" \"yarn jest\"",
+    "test:ci": "concurrently \"yarn lint\" \"yarn test\"",
+    "test:types": "yarn tsc"
+  },
+  "dependencies": {
+    "@types/bluebird": "^3.5.29",
+    "@types/lodash": "^4.14.134",
+    "@types/memoizee": "^0.4.3",
+    "@types/moment-timezone": "^0.5.12",
+    "@znemz/build-info": "0.1.0",
+    "@znemz/js-common-eslint-config-react-emotion": "0.2.1",
+    "@znemz/js-common-jest-deps": "0.2.1",
+    "@znemz/js-common-prettierrc-clone": "0.2.1",
+    "@znemz/types": "0.0.1",
+    "bluebird": "^3.7.2",
+    "config": "^3.2.4",
+    "debug-fabulous": "^2.0.1",
+    "memoizee": "^0.4.14",
+    "moment": "^2.24.0",
+    "moment-timezone": "^0.5.27",
+    "rimraf": "3.0.0",
+    "serialize-javascript": "^2.1.2",
+    "sort-package-json": "1.23.1",
+    "ts-jest": "^24.2.0",
+    "ts-node": "^8.6.2",
+    "typescript": "3.6",
+    "yargs": "^15.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.0"
+  },
+  "engines": {
+    "node": "12"
+  }
+}
