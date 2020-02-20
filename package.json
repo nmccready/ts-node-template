@@ -29,6 +29,7 @@
     "@znemz/react-extras-jest": "^1.5.2-alpha.0",
     "@znemz/types": "0.0.1",
     "bluebird": "^3.7.2",
+    "concurrently": "^5.1.0",
     "config": "^3.2.4",
     "debug-fabulous": "^2.0.1",
     "memoizee": "^0.4.14",
