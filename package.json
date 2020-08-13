@@ -36,7 +36,7 @@
     "moment": "^2.24.0",
     "moment-timezone": "^0.5.27",
     "rimraf": "3.0.0",
-    "serialize-javascript": "^2.1.2",
+    "serialize-javascript": "^3.1.0",
     "sort-package-json": "1.23.1",
     "ts-jest": "^24.2.0",
     "ts-node": "^8.6.2",
